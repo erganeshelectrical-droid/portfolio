@@ -71,7 +71,7 @@ p.reff {
 }
 
 .section-padding {
-    padding: 5rem 0;
+    padding: 5rem 0 0;
 }
 
 /* Typography */
@@ -642,6 +642,7 @@ i{
 }
 
 @media (max-width: 768px) {
+
     .nav-links {
         display: none;
         position: absolute;
@@ -671,8 +672,29 @@ i{
     .hero-title {
         font-size: 3rem;
     }
+
 }
-/* Folder */
+@media (max-width: 768px) {
+    .gallery-list {
+        gap: 2em;
+        display: inline-block !important;
+    }
+    .gallery-list img {
+    height: auto !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+.folder h2 {
+    padding-bottom: 25px;
+}
+}
+section#gallery {
+    padding-bottom: 5rem;
+}
+.gallery-list a{
+    text-decoration: none;
+}
+ /* Folder */
 
 /* .folder{
     width:240px;
@@ -695,9 +717,11 @@ i{
     width:140px;
 }
 
-.folder h2{
-    margin-top:15px;
-    font-size:24px;
+.folder h2 {
+    margin-top: 15px;
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .folder p{
@@ -714,6 +738,7 @@ i{
     justify-content: center;
 }
 .gallery-list img {
-    height: auto;
+    height: 220px;
     width: 300px;
+    object-fit: cover;
 }
