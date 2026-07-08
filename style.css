@@ -57,7 +57,12 @@ body {
     0% { transform: translate(0, 0) scale(1); }
     100% { transform: translate(5%, 10%) scale(1.1); }
 }
-
+p.reff {
+    font-style: italic;
+    text-align: justify;
+    line-height: 28px;
+    margin-top: 10px;
+}
 /* Container */
 .container {
     max-width: 1200px;
