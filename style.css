@@ -692,7 +692,7 @@ section#gallery {
     padding-bottom: 5rem;
 }
 .gallery-list a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
  /* Folder */
 
@@ -720,8 +720,8 @@ section#gallery {
 .folder h2 {
     margin-top: 15px;
     font-size: 24px;
-    margin-bottom: 0;
-    text-align: center;
+    margin-bottom: 0 !important;
+    text-align: center !important;
 }
 
 .folder p{
